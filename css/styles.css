@@ -122,19 +122,18 @@ height: 100%;
 .clients-conteiner {
   padding-top: 90px;
   padding-bottom: 100px;
-  margin-right: ;
 }
 
 .section-clients-list {
   display: flex;
 }
 
-.section-clients-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .section-clients-item {
   flex: 1 1 33.33%;
+}
+
+.section-clients-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .section-clients-customer {
