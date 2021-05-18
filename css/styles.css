@@ -117,3 +117,74 @@ height: 100%;
 .section-do-item:not(:last-child) {
     margin-right: 30px;
 }
+
+/* HAPPY CLIENTS */
+.clients-conteiner {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  margin-right: ;
+}
+
+.section-clients-list {
+  display: flex;
+}
+
+.section-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-clients-item {
+  flex: 1 1 33.33%;
+}
+
+.section-clients-customer {
+  display: flex;
+  align-items: center;
+}
+
+.section-clients-avatar {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #3270b4;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* CONTACTS */
+.contacts-container {
+  padding-top: 70px;
+  padding-bottom: 160px;
+}
+
+.section-contacts-list {
+  display: flex;
+  margin-top: 110px;
+  flex: 1 1 33.33%;
+}
+
+.section-contacts-info {
+  width: 250px;
+}
+
+.section-contacts-icon {
+  display: block;
+  height: 30px;
+  margin-bottom: 15px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto 100%;
+  background-color: transparent;
+}
+
+.section-contacts-icon-gps {
+  background-image: url("/img/gps.png");
+}
+
+.section-contacts-icon-phone {
+  background-image: url("/img/phone.png");
+}
+
+.section-contacts-icon-email {
+  background-image: url("/img/mail.png");
+  background-size: auto 19px;
+}
