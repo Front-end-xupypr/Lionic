@@ -112,8 +112,9 @@ height: 100%;
 
 /* HERO */
 .section-hero {
-  background-image: url(../img/Base.png) right center no-repeat;
-  /* background-size: contain; */
+  background-image: url(../img/Base.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
